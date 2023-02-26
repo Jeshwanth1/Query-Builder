@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Document</title>
+        <script type="text/javascript" src="popup.js"></script>
+    </head>
+    <style>
+        body {
+            border-radius: 0.5em;
+            width: 300px;
+        }
+    </style>
+    <body>
+        <div>
+            <span>Query: </span>
+            <input id="q">
+        </div>
+        <div>
+            <span>Market: </span>
+            <input id="mkt">
+        </div>
+        <div>
+            <span>Language: </span>
+            <input id="lang">
+        </div>
+        <div>
+            <span>Region: </span>
+            <input id="cc">
+        </div>
+        <div>
+            <input type="checkbox" id="vs" name="vs" value="vs">
+            <label for="vs"> view-source</label>
+            <input type="checkbox" id="p1aug" name="p1aug" value="p1aug">
+            <label for="p1aug"> p1 augmentation</label>
+            <input type="checkbox" id="pbxml" name="pbxml" value="pbxml">
+            <label for="pbxml"> pbxml</label><br>
+        </div>
+        <input type="submit" value="Submit" id="Sub">
+        <div>
+            Query: 
+            <span id="query"></span>
+        </div>
+    </body>
+    </html>
